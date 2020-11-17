@@ -16,4 +16,9 @@ public class Car {
 	{
 		System.out.println("refuel");
 	}
+	
+	public static void diskbreak()
+	{
+		System.out.println("we have diskbreak");
+	}
 }

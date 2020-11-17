@@ -6,7 +6,7 @@ public class Constructorwiththiskeyword {
 	
 	public Constructorwiththiskeyword(String name, int age)
 	{
-		this.name=tname;
+		this.name=name;
 		this.age=age;
 		
 		System.out.println(name);

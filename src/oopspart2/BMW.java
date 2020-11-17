@@ -21,4 +21,10 @@ public class BMW extends Car{//"Has-a relationship" since extends keyword
 	{
 		System.out.println("safety");
 	}
+	
+	public static void diskbreak()
+	{
+		System.out.println("we dont have diskbreak");
+	}
+	
 }

@@ -28,7 +28,7 @@ public class ArrayListconcept {
 		ArrayList<Integer> ar1= new ArrayList();///if we give Integer it will stores inly integer value
 		
 		ar1.add(100);
-		System.out.println(ar1.size());
+		//System.out.println(ar1.size());
 		
 		ArrayList<String> ar2 = new ArrayList();
 		
@@ -38,7 +38,21 @@ public class ArrayListconcept {
 		
 		ar.remove(3);
 		
-		System.out.println(ar.size());
+		//System.out.println(ar.size());
+		
+		ArrayList obj1 = new ArrayList();
+		ArrayList obj2 = new ArrayList();
+		
+		obj1.add("E");
+		obj1.add("D");
+		obj2.add("E");
+		obj2.add(1,"D");
+		
+		System.out.println(obj1.equals(obj2));
+		
+		
 	}
+	
+	
 
 }

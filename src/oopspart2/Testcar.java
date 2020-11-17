@@ -12,6 +12,9 @@ public class Testcar {
 		b.refuel();
 		b.safety();
 		
+		System.out.println("***************");
+		
+		
 		System.out.println("***********");
 		Car c = new Car();
 		c.start();

@@ -7,6 +7,7 @@ public class ThrowKeyword {
 		
 		//throw keyword is used to throw an exception deliberately like our own exception 
 		
+				
 		System.out.println("Vishwanath");
 		
 		
